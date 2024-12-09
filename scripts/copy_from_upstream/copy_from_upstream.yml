@@ -39,6 +39,13 @@ upstreams:
     kem_scheme_path: '.'
     patches: [pqcrystals-ml_kem.patch]
   -
+    name: mlkem-native
+    git_url: https://github.com/bhess/mlkem-native.git
+    git_branch: updates
+    git_commit: 14141720b0149cad6c2f91b037e3e6a15882840c
+    kem_meta_path: '{pretty_name_full}_META.yml'
+    kem_scheme_path: '.'
+  -
     name: pqcrystals-dilithium
     git_url: https://github.com/pq-crystals/dilithium.git
     git_branch: master
@@ -166,7 +173,7 @@ kems:
   -
     name: ml_kem
     default_implementation: ref
-    upstream_location: pqcrystals-kyber-standard
+    upstream_location: mlkem-native
     schemes:
       -
         scheme: "512"
