@@ -18,7 +18,7 @@ website: https://falcon-sign.info
 nist-round: 3
 spec-version: 20211101
 primary-upstream:
-  source: https://github.com/PQClean/PQClean/commit/8e221ae797b229858a0b0d784577a8cb149d5789
+  source: https://github.com/PQClean/PQClean/commit/99630892b15a1d7af18e057a933b31a8d0ece242
   spdx-license-identifier: MIT
   upstream-ancestors:
   - https://www.falcon-sign.info
