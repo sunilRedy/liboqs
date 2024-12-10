@@ -7,7 +7,7 @@
 - **Authors' website**: https://pq-crystals.org/kyber/ and https://csrc.nist.gov/pubs/fips/203
 - **Specification version**: ML-KEM.
 - **Primary Source**<a name="primary-source"></a>:
-  - **Source**: https://github.com/bhess/mlkem-native/commit/2b650d6676bf6a3a82ab7e9ecd96acd397ca71cd
+  - **Source**: https://github.com/bhess/mlkem-native/commit/d02922e301696f82c996f6844d83b5f9a7933ad1
   - **Implementation license (SPDX-Identifier)**: CC0-1.0 or Apache-2.0
 
 
